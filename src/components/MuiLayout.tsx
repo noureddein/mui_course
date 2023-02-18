@@ -1,4 +1,4 @@
-﻿import { Box } from "@mui/material";
+﻿import { Box, Stack, Divider } from "@mui/material";
 
 /*
     Box:
@@ -28,9 +28,26 @@
 
 */
 
+/*
+    Stack:
+        - The Stack component is used to manage
+        layout in one dimension either vertical or 
+        the horizontal axis.
+
+        - The default display direction of the Stack 
+        component is column.
+
+*/
+
 const MuiLayout = () => {
     return (
-        <>
+        <Stack
+            border={1}
+            direction="row"
+            spacing={1}
+            divider={<Divider orientation="vertical" flexItem />}
+            bgcolor='warning.main'
+        >
             <Box
                 sx={{
                     backgroundColor: "primary.main",
@@ -53,11 +70,10 @@ const MuiLayout = () => {
                 width="150px"
                 bgcolor="success.light"
                 p={2} // p: padding, 2 = 16px
-                border={2}
-                mt={2}
-                borderColor='primary.main'
+                borderRadius="5px"
+                borderColor="primary.main"
             ></Box>
-        </>
+        </Stack>
     );
 };
 
