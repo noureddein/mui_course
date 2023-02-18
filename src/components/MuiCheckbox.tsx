@@ -3,7 +3,6 @@ import {
     Box,
     FormControlLabel,
     Checkbox,
-    Switch,
     FormControl,
     FormLabel,
     FormGroup,
