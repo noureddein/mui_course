@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 // import MuiTypography from './components/MuiTypography';
 // import MuiButton  from './components/MuiButton';
 // import MuiTextField from './components/MuiTextField';
@@ -8,23 +8,25 @@ import './App.css';
 // import MuiSwitch from './components/MuiSwitch';
 // import MuiRating from './components/MuiRating';
 // import MuiAutocomplete from './components/MuiAutocomplete';
-import MuiLayout from './components/MuiLayout';
+// import MuiLayout from './components/MuiLayout';
+import MuiGrid from "./components/MuiGrid";
 
 function App() {
-  return (
-    <div className="App">
-      {/* <MuiTypography /> */}
-      {/* <MuiButton /> */}
-      {/* <MuiTextField /> */}
-      {/* <MuiSelect /> */}
-      {/* <MuiRadioButton /> */}
-      {/* <MuiCheckbox /> */}
-      {/* <MuiSwitch /> */}
-      {/* <MuiRating /> */}
-      {/* <MuiAutocomplete /> */}
-      <MuiLayout/>
-    </div>
-  );
+    return (
+        <div className="App">
+            {/* <MuiTypography /> */}
+            {/* <MuiButton /> */}
+            {/* <MuiTextField /> */}
+            {/* <MuiSelect /> */}
+            {/* <MuiRadioButton /> */}
+            {/* <MuiCheckbox /> */}
+            {/* <MuiSwitch /> */}
+            {/* <MuiRating /> */}
+            {/* <MuiAutocomplete /> */}
+            {/* <MuiLayout/> */}
+            <MuiGrid />
+        </div>
+    );
 }
 
 export default App;
