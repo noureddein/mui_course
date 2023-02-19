@@ -24,8 +24,7 @@
             5. We can assign integer values to each breakpoint which 
             indicates how many of the 12 available columns are occupied 
             by that item when the viewport satisfies that breakpoint constraints.
-            
-            */
+*/
 
 export default function MuiGrid() {
     return (
@@ -130,7 +129,7 @@ export default function MuiGrid() {
                     </Box>
                 </Grid>
             </Grid>
-        
+
             <Grid container my={4} rowSpacing={2} columnSpacing={1}>
                 <Grid item xs={6}>
                     <Box bgcolor="GrayText" p={2}>
