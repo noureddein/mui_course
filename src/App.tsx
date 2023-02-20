@@ -11,7 +11,8 @@ import "./App.css";
 // import MuiLayout from './components/MuiLayout';
 // import MuiGrid from "./components/MuiGrid";
 // import MuiPaper from "./components/MuiPaper";
-import MuiCard from "./components/MuiCard";
+// import MuiCard from "./components/MuiCard";
+import MuiAccordion from "./components/MuiAccordion";
 
 function App() {
     return (
@@ -28,7 +29,8 @@ function App() {
             {/* <MuiLayout/> */}
             {/* <MuiGrid /> */}
             {/* <MuiPaper /> */}
-            <MuiCard />
+            {/* <MuiCard /> */}
+            <MuiAccordion />
         </div>
     );
 }
