@@ -24,8 +24,8 @@ export default function MuiBreadcrumbs() {
                 aria-label="Breadcrumbs"
                 separator={<NavigateNextIcon fontSize="small" />}
                 maxItems={2}
-                itemsAfterCollapse={}
-                itemsBeforeCollapse={}
+                itemsAfterCollapse={2}
+                itemsBeforeCollapse={2}
             >
                 <Link href="#">Home</Link>
                 <Link href="#">Category</Link>
