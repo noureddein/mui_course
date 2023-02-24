@@ -29,6 +29,7 @@ export default function MuiBreadcrumbs() {
             >
                 <Link href="#">Home</Link>
                 <Link href="#">Category</Link>
+                <Link href="#">Sub Category</Link>
                 <Link href="#">Accessories</Link>
                 <Typography color="text.primary">Shoes</Typography>
             </Breadcrumbs>
