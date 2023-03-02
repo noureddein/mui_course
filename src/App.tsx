@@ -45,6 +45,7 @@ function App() {
             {/* <MuiDrawer /> */}
             {/* <MuiDrawer /> */}
             {/* <MuiSpeedDial /> */}
+            {/* <MuiSpeedDial /> */}
             <MuiBottomNavigation />
         </div>
     );
