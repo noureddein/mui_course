@@ -14,10 +14,12 @@ import MenuIcon from "@mui/icons-material/Menu";
             the sidebar opens, left | bottom | right | top
             - open: initial value of the sidebar state. Boolean
             - onClose: to handle sidebar closing. Function
+            - variant: to specify the state of the Drawer to be opened 
+            permanently or temporary
 */
 
 export default function MuiDrawer() {
-    const [isDrawerOpen, setIsDrawerOpen] = useState(true);
+    const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
     return (
         <>
@@ -34,6 +36,7 @@ export default function MuiDrawer() {
                 anchor="left"
                 open={isDrawerOpen}
                 onClose={() => setIsDrawerOpen(false)}
+                variant='temporary'
             >
                 <Box
                     padding={2}
